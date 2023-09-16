@@ -11,13 +11,15 @@ def compare_linear_regression(X, y):
     coef_skl = round(model.coef_[0], 6)
     intercept_skl = round(model.intercept_, 6)
 
+    # Create a linear regression manually
     y_lineal_regression = lineal_regression_manually(X,y)
     ax_lineal_regression = round(y_lineal_regression['slope (a)'],6)
     b_lineal_regression = round(y_lineal_regression['intercept (b)'],6)
-    
+
     # Visualize the results
     plt.scatter(X, y, label='Actual Data', color='blue')
-    plt.plot(X, y_pred, label='Predictions (scikit-learn)', color='red')
+    plt.plot(X, y_pred, label='Predictions (scikit-learn)', color='red', linewidth=2)
+    plt.plot(X, ax_lineal_regression * X + b_lineal_regression, label='Predictions (NumPy)', color='green')
     plt.xlabel('Feature')
     plt.ylabel('Target Variable')
     plt.legend()
