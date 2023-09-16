@@ -1,6 +1,7 @@
-# Machine Learning and Deep Learning Exercises
-
-![Machine Learning](https://github.com/AlejandroDavidArzolaSaavedra/machine_learning/edit/main/machine_learning.jpg)
+<h1 align="center">Machine Learning and Deep Learning Exercises</h1>
+<p align="center">
+  <img src="https://github.com/AlejandroDavidArzolaSaavedra/machine_learning/blob/main/machine_learning.jpg" alt="Machine Learning" width="800">
+</p>
 
 Welcome to the "Machine Learning and Deep Learning Exercises" repository! This repository contains a collection of exercises and projects aimed at helping you learn and practice various aspects of machine learning and deep learning.
 
