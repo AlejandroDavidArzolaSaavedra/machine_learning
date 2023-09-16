@@ -17,7 +17,7 @@ Welcome to the "Machine Learning and Deep Learning Exercises" repository! This r
 
 - :chart_with_upwards_trend: **Data Visualization**: Learn to visualize your data effectively using libraries like Matplotlib and Seaborn. Create informative plots and graphs, etc...
   - Technologies: ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
-  - Libraries: ![Matplotlib](https://img.shields.io/badge/Matplotlib-Latest-red?style=flat-square&logo=matplotlib), ![Seaborn](https://img.shields.io/badge/Seaborn-Latest-blue?style=flat-square&logo=python)
+  - Libraries: ![Matplotlib](https://img.shields.io/badge/Matplotlib-Latest-red?style=flat-square&logo=matplotlib), ![Seaborn](https://img.shields.io/badge/Seaborn-Latest-purple?style=flat-square&logo=python)
 
 - :bar_chart: **Model Evaluation and Metrics**: Explore techniques for evaluating machine learning models, including metrics like accuracy, precision, recall, etc...
   - Technologies: ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
