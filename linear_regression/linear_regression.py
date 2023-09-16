@@ -1,4 +1,3 @@
-import numpy as np
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
@@ -15,13 +14,15 @@ def compare_linear_regression(X, y):
     y_lineal_regression = lineal_regression_manually(X,y)
     ax_lineal_regression = round(y_lineal_regression['slope (a)'],6)
     b_lineal_regression = round(y_lineal_regression['intercept (b)'],6)
-
+    
     # Visualize the results
     plt.scatter(X, y, label='Actual Data', color='blue')
     plt.plot(X, y_pred, label='Predictions (scikit-learn)', color='red')
     plt.xlabel('Feature')
     plt.ylabel('Target Variable')
     plt.legend()
+    plt.xlim(0, 21)  # Ajusta el rango del eje x
+    plt.ylim(0, 24)  # Ajusta el rango del eje y (ajusta según tus datos)
     plt.show()
 
     # Check if the results are equal
@@ -50,10 +51,10 @@ def lineal_regression_manually(X, y):
 
     # Calculate sums of relevant values
     for i in range(n):
-        sum_xy += X[i] * y[i]
-        sum_x += X[i]
-        sum_y += y[i]
-        sum_x_squared += X[i] ** 2
+        sum_xy = sum_xy +  X[i] * y[i]
+        sum_x =  sum_x + X[i]
+        sum_y =  sum_y + y[i]
+        sum_x_squared = sum_x_squared + X[i] ** 2
 
     # Calculate the coefficients (a and b) of the linear equation -> Y = ax + b
     
