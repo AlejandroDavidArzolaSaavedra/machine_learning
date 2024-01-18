@@ -1,6 +1,10 @@
 <h1 align="center">Linear Regression Comparison</h1>
 
-The `compare_linear_regression` script demonstrates the comparison between linear regression models created using scikit-learn and manual implementation using NumPy. This provides insights into the consistency of results and allows you to verify the accuracy of your linear regression calculations.
+<p align="center">
+   <img width="500px" src="https://github.com/AlejandroDavidArzolaSaavedra/machine_learning/assets/90756437/29718ea5-bb70-48f9-b3e3-74e2646f1a7c">
+</p>
+
+The script demonstrates the comparison between linear regression models created using scikit-learn and manual implementation using NumPy. This provides insights into the consistency of results and allows you to verify the accuracy of your linear regression calculations.
 
 ## How it Works 🤖
 
