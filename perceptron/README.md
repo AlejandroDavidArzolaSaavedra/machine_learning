@@ -1,7 +1,5 @@
 <h1 align="center">Perceptron Class 🧠</h1>
 
-## Overview
-
 The `Perceptron` class is a Python implementation of a simple perceptron, a basic building block in neural networks. A perceptron is a binary classifier that learns to classify input data into two classes, typically denoted as 1 or -1. It achieves this classification by adjusting its weights based on the input features.
 
 ## How it Works 🤖
