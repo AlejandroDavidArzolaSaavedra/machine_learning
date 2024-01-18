@@ -21,12 +21,3 @@ The perceptron follows a simple learning algorithm:
 
 3. **Prediction:**
    - Once trained, the perceptron can predict the class label for new input data.
-
-## Usage 🚀
-
-To use the `Perceptron` class, follow these steps:
-
-1. Import the necessary libraries:
-
-   ```python
-   import numpy as np
