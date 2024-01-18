@@ -43,4 +43,5 @@ Before you begin, make sure you have the following installed:
 🐍 Python 3.x
 
 # Contributing
+<img align="left" width="200" height="180" src="https://github.com/AlejandroDavidArzolaSaavedra/CNN-CT-BRAIN/assets/90756437/3bf833fa-828e-467c-89b8-0ea4a077d3ea">
 If you have exercises or projects to contribute, feel free to submit a pull request. We welcome contributions from the community to make this repository a valuable resource for learners.
